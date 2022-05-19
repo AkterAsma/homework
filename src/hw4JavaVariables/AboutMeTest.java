@@ -38,5 +38,4 @@ public class AboutMeTest {
 		alex.aboutMe();
 
 	}
-
 }
