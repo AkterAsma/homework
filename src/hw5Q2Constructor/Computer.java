@@ -36,4 +36,9 @@ public class Computer {
 				+ "\nPrice: " + price + "\nGrade: " + grade + "\nMade in USA: " + madeInUSA);
 	}
 
+	public Computer(String brand, String model) {
+		this.brand = brand;
+		this.model = model;
+	}
+
 }
