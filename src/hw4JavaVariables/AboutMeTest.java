@@ -1,19 +1,8 @@
 package hw4JavaVariables;
-/*Create another class AboutMeTest. Instantiate AboutMe class under main method. 
- * Initialize variables and call the method by object. I expect print outcome for 2 person, one for you and another for your best friend Alex. 
- * give a single line comment where a variable is declared and initialized, constructor is declared and initialized, method is implemented and initialized. 
- * Follow indentation by Organizing the code and paste below. 
- * [Mark distribution (125) : using variable --10, Create a method and constructor - 20, instantiate class - 10, 
- * initialize variables and call methods for you and Alex= 20,  variable is declared and initialized, constructor is declared and initialized, 
- * method is implemented and initialized -- 15, organize code and other-- 30]. push your code to github -- 20. share the package link below.
- */
 
 public class AboutMeTest {
-
 	public static void main(String[] args) {
-
 		AboutMe asma = new AboutMe(); // constructor initialized
-
 		asma.myName = "Asma Akter"; // variables initialized
 		asma.age = 25;
 		asma.mySalary = 20000;
@@ -24,7 +13,6 @@ public class AboutMeTest {
 		asma.sex = 'F';
 		asma.allInfo = false;
 		asma.aboutMe(); // method initialized
-
 		AboutMe alex = new AboutMe();
 		alex.myName = "Alex";
 		alex.age = 27;
@@ -36,6 +24,5 @@ public class AboutMeTest {
 		alex.sex = 'M';
 		alex.allInfo = false;
 		alex.aboutMe();
-
 	}
 }

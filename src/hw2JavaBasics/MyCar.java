@@ -7,8 +7,6 @@ public class MyCar {
 		System.out.print("\t\nThe color is pearl white.");
 		System.out.print("\t\nThis is a XLE premium 2021 Model");
 		System.out.print("\t\nIts an all wheel drive.");
-		
-
 	}
 
 }
