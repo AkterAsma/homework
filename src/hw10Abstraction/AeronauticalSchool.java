@@ -1,4 +1,4 @@
-package hw9Abstraction.copy;
+package hw10Abstraction;
 
 public interface AeronauticalSchool{
 	public void aeronauticalInfo ();
