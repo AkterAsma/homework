@@ -7,6 +7,8 @@ package hw11Abstraction;
  *  A regular class can inherit one or more than one interface by using Implements keyword.
  */
 
+import javax.swing.DefaultBoundedRangeModel;
+
 public class ColumbiaUniversity extends MedicalSchool implements University, VocationalSchool {
 	// public abstract void chemistry (); (we cannot create an abstract method in a
 	// regular class)
@@ -94,9 +96,15 @@ public class ColumbiaUniversity extends MedicalSchool implements University, Voc
 	@Override
 	public void vocationalInfo() {
 		// TODO Auto-generated method stub
-		
+
 	}
-	public static void Columbia () {
-		
+
+	public static void Columbia() {
+
 	}
+	/*
+	 * public default void restRoom() {
+	 * 
+	 * } default methods are not allowed in regular class.
+	 */
 }

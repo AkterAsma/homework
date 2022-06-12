@@ -13,7 +13,7 @@ public abstract class MedicalSchool extends NursingSchool implements LawSchool {
 	public void biochemistryLab() {
 		System.out.println("biochemistrylab is a non abstract method, we can also call it Implementated  ");
 	}
-	
+
 	public static void medical() {
 		System.out.println("This static method is from medicalschool abstract class.");
 	}
@@ -22,4 +22,9 @@ public abstract class MedicalSchool extends NursingSchool implements LawSchool {
 	public MedicalSchool() {
 
 	}
+	/*
+	 * public default void restRoom() {
+	 * 
+	 * } Default methods are not allowed in abstract class.
+	 */
 }
