@@ -1,4 +1,4 @@
-package hw10Abstraction;
+package hw11Abstraction;
 /*
  *In Java only one keyword (extends) is used for the inheritance for a regular Class.
  *A regular class can inherit other regular class or an abstract class.
@@ -7,7 +7,7 @@ package hw10Abstraction;
  *  A regular class can inherit one or more than one interface by using Implements keyword.
  */
 
-public class ColumbiaUniversity extends MedicalSchool implements University {
+public class ColumbiaUniversity extends MedicalSchool implements University, VocationalSchool {
 	// public abstract void chemistry (); (we cannot create an abstract method in a
 	// regular class)
 	public void biology() {
@@ -89,5 +89,14 @@ public class ColumbiaUniversity extends MedicalSchool implements University {
 	public void teacher() {
 		// TODO Auto-generated method stub
 
+	}
+
+	@Override
+	public void vocationalInfo() {
+		// TODO Auto-generated method stub
+		
+	}
+	public static void Columbia () {
+		
 	}
 }

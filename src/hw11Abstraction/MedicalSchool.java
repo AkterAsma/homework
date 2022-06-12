@@ -1,4 +1,4 @@
-package hw10Abstraction;
+package hw11Abstraction;
 /*
  * In Java only one keyword (extends) is used for the inheritance for Abstract Class.
  *An Abstract class can inherit other Abstract class or a regular class.
@@ -12,6 +12,10 @@ public abstract class MedicalSchool extends NursingSchool implements LawSchool {
 
 	public void biochemistryLab() {
 		System.out.println("biochemistrylab is a non abstract method, we can also call it Implementated  ");
+	}
+	
+	public static void medical() {
+		System.out.println("This static method is from medicalschool abstract class.");
 	}
 
 	// Default constructor
