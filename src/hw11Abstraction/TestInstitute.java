@@ -28,6 +28,7 @@ public class TestInstitute {
 		columbiaUniversity.dorm();
 		columbiaUniversity.morgue();
 		ColumbiaUniversity.Columbia();// columbia() is the static method from ColumbiaUniversity.
+		ColumbiaUniversity.medical();// static method from abstract class
 		/*
 		 * columbiaUniversity.library ();f columbiaUniversity.studyRoom ();
 		 * columbiaUniversity.pharmacy(); static method from University, college,
